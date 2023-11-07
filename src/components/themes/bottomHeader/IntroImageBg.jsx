@@ -22,17 +22,16 @@ const BottomHeaderImgBgIntro = () => {
                     {" "}
                     <img
                       className="img-fluid rounded-pill d-block"
-                      src="images/web-developer-sm.jpg"
+                      src="images/award-edited.jpg"
                       title="I'm David"
                       alt="I'm David"
                     />{" "}
                   </div>
-                  <h2 className="text-10 text-white text-uppercase fw-600 mb-4 wow fadeInUp">
-                    Hello! I'm Callum Smith - Graphic Designer, Illustrator
-                    &amp; Art Director.
+                  <h2 className="text-10 text-uppercase fw-600 mb-4 wow fadeInUp">
+                    Hello! I'm Damon O'Neil - Software Engineer
                   </h2>
-                  <p className="text-5 text-light pb-3 wow fadeInUp">
-                    based in Los Angeles, USA.
+                  <p className="text-5 pb-3 wow fadeInUp">
+                    based in Sydney, Australia.
                   </p>
                   <Link
                     className="btn btn-primary rounded-0 smooth-scroll wow fadeInUp"

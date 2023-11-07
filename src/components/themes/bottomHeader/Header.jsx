@@ -15,7 +15,7 @@ const BottomHeader = () => {
             {/* Logo */}
             <Link
               className="logo"
-              title="Callum"
+              title="Damon"
               smooth="easeInOutQuint"
               duration={scrollDuration}
               style={{ cursor: "pointer" }}
@@ -25,7 +25,7 @@ const BottomHeader = () => {
                 setIsNavModalClose(true);
               }}
             >
-              <img src="images/logo.png" alt="Callum" />
+              <img src="images/logo.png" alt="Damon" />
             </Link>
             {/* Logo End */}
           </div>

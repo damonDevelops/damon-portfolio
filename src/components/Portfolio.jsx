@@ -14,10 +14,10 @@ const Portfolio = () => {
   const isRtl = htmlElement.getAttribute("dir") === "rtl";
 
   const filters = {
-    DETAILED: "Details",
-    MOCKUPS: "Mockups",
-    YOUTUBE: "Youtube Videos",
-    VIMEO: "Vimeo Videos",
+    PROJECTS: "Projects",
+    PERSONAL: "Personal Projects",
+    // YOUTUBE: "Youtube Videos",
+    // VIMEO: "Vimeo Videos",
   };
 
   const types = {
@@ -28,90 +28,159 @@ const Portfolio = () => {
 
   const projectsData = [
     {
-      title: "Detailed Project 1",
+      title: "IDentify",
       type: types.DOCUMENT,
       document: {
         projectInfo:
-          "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-        client: "Ruby Clinton",
-        technologies: "iOS, HTML5, CSS3, PHP, Java",
-        industry: "Art & Design",
-        date: "July 16, 2019",
+          "My best project to date. Our system allows businesses to provide customers with QR codes. The customer can then take or upload an image of their drivers license to be scanned and added to the system, no paper required. We finished 2nd at the annual UOW SCIT Tradeshow with this project.",
+        client: "CSIT321 - Dr John Le",
+        technologies: "TypeScript, Angular, Java Spring Boot, Python, YOLACT, OpenCV, EasyOCR",
+        features: "Machine learning 0 shot classification, real time API backend integrated with fronted. User form automation using DocXTemplater.",
+        date: "2023",
         url: {
-          name: "www.example.com",
-          link: "https://www.example.com",
+          name: "www.identify.rodeo",
+          link: "https://www.identify.rodeo",
         },
 
         sliderImages: [
-          "images/projects/project-2.jpg",
-          "images/projects/project-5.jpg",
+          "images/projects/identify/2.jpg",
+          "images/projects/identify/3.jpg",
+          "images/projects/identify/5.jpg",
+          "images/projects/identify/7.jpg",
+          "images/projects/identify/10.jpg",
+          "images/projects/identify/12.jpg",
+          "images/projects/identify/13.jpg",
+          "images/projects/identify/16.jpg",
         ],
       },
 
-      thumbImage: "images/projects/project-1.jpg",
+      thumbImage: "images/projects/identify/15.jpg",
 
-      categories: [filters.DETAILED],
+      categories: [filters.PROJECTS],
     },
     {
-      title: "Mockups Design 1",
-      type: types.IMAGE,
-
-      thumbImage: "images/projects/project-2.jpg",
-
-      categories: [filters.MOCKUPS],
-    },
-    {
-      title: "YouTube Video",
-      type: types.VIDEO,
-      video: {
-        vimeo: false,
-        id: "PMNnEEEacCg",
-      },
-      thumbImage: "images/projects/project-3.jpg",
-
-      categories: [filters.YOUTUBE],
-    },
-    {
-      title: "Vimeo Video",
-      type: types.VIDEO,
-      video: {
-        vimeo: true,
-        id: "259411563",
-      },
-
-      thumbImage: "images/projects/project-4.jpg",
-      categories: [filters.VIMEO],
-    },
-    {
-      title: "Detailed Project 2",
+      title: "Tradie Connect",
       type: types.DOCUMENT,
       document: {
         projectInfo:
-          "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-        client: "Ruby Clinton",
-        technologies: "iOS, HTML5, CSS3, PHP, Java",
-        industry: "Art & Design",
-        date: "July 16, 2019",
+          "Tradie Connect is a three user based system connecting tradies to customer jobs, with an admin that can view statistics and generate reports. TradieConnect allows a customer to broadcast a job which service providers can apply for and complete, and the customer can review the Tradie also.",
+        client: "CSIT314",
+        technologies: "React, JavaScript, Java Spring Boot, Python",
+        features: "Three user based system, three seperate interfaces. User Authentication. User Routing. Realtime API updates. PDF Report Generation",
+        date: "2023",
         url: {
-          name: "www.example.com",
-          link: "https://www.example.com",
+          name: "Tradie Connect Github",
+          link: "https://github.com/damonDevelops/Tradie-Connect",
         },
         sliderImages: [
-          "images/projects/project-1.jpg",
-          "images/projects/project-2.jpg",
+          "images/projects//tradieConnect/1.jpg",
+          "images/projects//tradieConnect/2.jpg",
+          "images/projects//tradieConnect/3.jpg",
+          "images/projects//tradieConnect/8.jpg",
+          "images/projects//tradieConnect/12.jpg",
+          "images/projects//tradieConnect/7.jpg",
         ],
       },
-      thumbImage: "images/projects/project-5.jpg",
-      categories: [filters.DETAILED],
+      thumbImage: "images/projects//tradieConnect/17.jpg",
+      categories: [filters.PROJECTS],
     },
     {
-      title: "Mockups Design 2",
-      type: types.IMAGE,
-
-      thumbImage: "images/projects/project-6.jpg",
-
-      categories: [filters.MOCKUPS],
+      title: "Mercury",
+      type: types.DOCUMENT,
+      document: {
+        projectInfo:
+          "A microservice based web app for a cycling company. Allows the user to create, buy and store parts and update inventory numbers all in seperate microservices. Uses Apache Kafka for instant realtime processing.",
+        client: "CSIT318",
+        technologies: "React, JavaScript, Apache Kafka, Java Spring Boot",
+        features: "Realtime data streaming using Kafka, realtime data display using React, admin panel for software overview.",
+        date: "July 16, 2019",
+        url: {
+          name: "Mercury Github",
+          link: "https://github.com/jjcoop/mercu",
+        },
+        sliderImages: [
+          "images/projects/mercury/1.jpg",
+          "images/projects/mercury/3.jpg",
+          "images/projects/mercury/4.jpg",
+          "images/projects/mercury/5.jpg",
+        ],
+      },
+      thumbImage: "images/projects/mercury/2.jpg",
+      categories: [filters.PROJECTS],
     },
+    {
+      title: "Fly Dream Air",
+      type: types.DOCUMENT,
+      document: {
+        projectInfo:
+          "A simple website to mock a airline booking service. Allows users to book seats on single or return flights, add extras and manage their bookings. A project built shortly after learning to code (really shows how far I've come as a developer)!",
+        client: "CSIT214",
+        technologies: "HTML, JavaScript, CSS",
+        features: "No frotend framework, localStorage, text file download",
+        date: "2021",
+        url: {
+          name: "FlyDreamAir Github",
+          link: "https://github.com/damonDevelops/FlyDreamAir",
+        },
+        sliderImages: [
+          "images/projects/flyDreamAir/1.jpg",
+          "images/projects/flyDreamAir/3.jpg",
+          "images/projects/flyDreamAir/4.jpg",
+          "images/projects/flyDreamAir/5.jpg",
+          "images/projects/flyDreamAir/6.jpg",
+          "images/projects/flyDreamAir/7.jpg",
+        ],
+      },
+      thumbImage: "images/projects/flyDreamAir/2.jpg",
+      categories: [filters.PROJECTS],
+    },
+    {
+      title: "Secret Santa Message Service",
+      type: types.DOCUMENT,
+      document: {
+        projectInfo:
+          "A personal project I made to do our family secret santa every year. I was sick of someone having to organise it and them know who everyone had. My system uses Twilio so everyone gets sent a message with their secret santa.",
+        client: "Myself!",
+        technologies: "Python, PyQt5, Twilio",
+        features: "Couples or individuals, easy to use desktop interface, Twilio messaging, CSV import for easy loading of more people or couples.",
+        date: "2022",
+        url: {
+          name: "Secret Santa Github",
+          link: "https://github.com/damonDevelops/python_projects",
+        },
+        sliderImages: [
+          "images/projects/secretSanta/2.jpg",
+        ],
+      },
+      thumbImage: "images/projects/secretSanta/1.jpg",
+      categories: [filters.PERSONAL],
+    },
+
+
+    // {
+    //   title: "YouTube Video",
+    //   type: types.VIDEO,
+    //   video: {
+    //     vimeo: false,
+    //     id: "PMNnEEEacCg",
+    //   },
+    //   thumbImage: "images/projects/project-3.jpg",
+
+    //   categories: [filters.YOUTUBE],
+    // },
+    // {
+    //   title: "Vimeo Video",
+    //   type: types.VIDEO,
+    //   video: {
+    //     vimeo: true,
+    //     id: "259411563",
+    //   },
+
+    //   thumbImage: "images/projects/project-4.jpg",
+    //   categories: [filters.VIMEO],
+    // },
+    
+    
   ];
 
   // initialize an Isotope object with configs

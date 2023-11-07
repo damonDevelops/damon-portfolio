@@ -3,6 +3,7 @@ import WOW from "wowjs";
 import AboutUs from "./components/About";
 import Services from "./components/Services";
 import Resume from "./components/Resume";
+import Coding from "./components/Coding";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
@@ -124,10 +125,12 @@ function App() {
             <AboutUs></AboutUs>
             <Services></Services>
             <Resume></Resume>
+            <Coding></Coding>
             <Portfolio></Portfolio>
             <CallToAction></CallToAction>
             <FAQs></FAQs>
-            <Testimonials></Testimonials>
+            {/* Uncomment for a slideshow of testimonials */}
+            {/* <Testimonials></Testimonials> */}
             <Contact></Contact>
           </div>
           <Footer handleNavClick={handleNavClick}></Footer>

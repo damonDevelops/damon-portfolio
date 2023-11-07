@@ -9,7 +9,7 @@ const Footer = () => {
             <p className="mb-2 mb-lg-0">
               Copyright © 2023{" "}
               <a className="fw-600" href="/">
-                Callum
+                Damon
               </a>
               . All Rights Reserved.
             </p>

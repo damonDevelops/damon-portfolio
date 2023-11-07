@@ -4,29 +4,24 @@ import Accordion from "react-bootstrap/Accordion";
 const FAQs = () => {
   const faqsData = [
     {
-      question: "What is Callum?",
+      question: "What can I do?",
       answer:
-        "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna imperdiet.",
+        "The question is not what can I do but what aren't I willing to learn, the answer to which is nothing! I pride myself on my quick learning ability, when given the right guidance and resources. I really enjoy frontend development and I like where some of the new CSS frameworks are heading, the internet needs another revamp! I can also do backend development so I am a qualified fullstack engineer when required!",
     },
     {
-      question: "How Can I Help You?",
+      question: "What are my interests?",
       answer:
-        "Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. <br /> Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.",
+        "Outside of developing, I really like gaming (I know, really contributing to the nerd stereotype). I also like playing guitar which I'm pretty good at (less nerdy), and also getting to the gym or training for events whenever I can. I recently completed my first half marathon and I reckon that has to put me in a small category of software developers who've completed one!",
     },
     {
-      question: "Simple process for workflow?",
+      question: "What's my best quality?",
       answer:
-        "Iisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna imperdiet.",
+        "Communication. I truly believe the key to success in software development (or any area of work) is quality communication. I can see myself becoming a leader or project manager in the future as I enjoy overseeing projects, talking with people and working out the big problems people have. I've led most of my university projects and was a leader throughout high school in areas like basketball captaincy and school prefect.",
     },
     {
-      question: "Is Callum a Multi-purpose template?",
+      question: "Where do I see myself in 10 years?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
-    },
-    {
-      question: "Why responsive one page template?",
-      answer:
-        "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.",
+        "Hopefully retired with a superyacht because I sold some code to Google (this is a joke). Realistically I would like to have experience in various fields but would love to work my way up from Junior Developer to Senior Developer at a new or upcoming startup that I'm passionate about and align with. If that's you, and you think I'm a good fit for that, please email me or message me so we can have a chat!",
     },
   ];
 

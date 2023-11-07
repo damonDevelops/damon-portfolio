@@ -28,14 +28,14 @@ const StandardMenuImgBgIntro = () => {
                   <h2 className="text-23 text-white fw-600 text-uppercase mb-0 ms-n1">
                     <Typewriter
                       options={{
-                        strings: ["Designer", "Developer", "Callum"],
+                        strings: ["Software Engineer", "Frontend Developer", "Damon"],
                         autoStart: true,
                         loop: true,
                       }}
                     />{" "}
                   </h2>
                   <p className="text-5 text-light">
-                    based in Los Angeles, USA.
+                    based in Sydney, Australia.
                   </p>
                   <Link
                     className="btn btn-primary fw-600 rounded-0 smooth-scroll mt-3"

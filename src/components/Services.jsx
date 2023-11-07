@@ -4,33 +4,33 @@ const Services = () => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: "Frontend Design",
+      desc: "I'm familiar with tools like Figma which allow me to create fantastic looking concepts. This allows you to pick and choose how you want the website to look before I've even written a line of code.",
       icon: "fas fa-palette",
     },
     {
-      name: "Web Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: "Backend Development",
+      desc: "Although I favour frontend development, I'm proficient in full stack development and can build an application from the ground up if needed.",
       icon: "fas fa-desktop",
     },
     {
       name: "UI/UX Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      desc: "I've always had a keen interest in User Interface and User Experience and I believe it is the most important part of a finished product.",
       icon: "fas fa-pencil-ruler",
     },
     {
-      name: "App Design & Develop",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: "Leadership",
+      desc: "I've been the leader or co-leader on many projects and I believe it's my strongest asset in software development.",
       icon: "fas fa-paint-brush",
     },
     {
-      name: "Business Analysis",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: "Continuous Learning",
+      desc: "I love keeping up to date with the newest trends in software development, striving to constantly update my portfolio with new projects that utilise new technologies.",
       icon: "fas fa-chart-area",
     },
     {
-      name: "SEO Marketing",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: "Coding Skills",
+      desc: "I believe I've learnt enough coding languages that I'm adaptable and efficient in learning kew ones. Check my skills out below!",
       icon: "fas fa-bullhorn",
     },
   ];

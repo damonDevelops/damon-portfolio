@@ -4,43 +4,43 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = () => {
   const educationDetails = [
     {
-      yearRange: "2015 - 2017",
-      title: "Master in Computer Engineering",
-      place: "Harvard University",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
+      yearRange: "2013 - 2018",
+      title: "High School Certificate",
+      place: "Shellharbour Anglican College",
+      desc: "I graduated as a school prefect, basketball captain and on the HSC honour roll. I enjoyed applying myself both academically and outside the classroom too. I was also ICT student of the year for the Wollongong region in 2018",
     },
     {
-      yearRange: "2014 - 2015",
-      title: "Bachelor in Computer Engineering",
-      place: "University of California",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
-    },
-    {
-      yearRange: "2013 - 2014",
-      title: "International Science",
-      place: "Harvard University",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
+      yearRange: "2020 - 2023",
+      title: "Bachelor of Computer Science - Software Engineer Major",
+      place: "University of Wollongong",
+      desc: "Recently graduated, our group finished 2nd out of 25 in the capstone project for our project 'IDentify' which I'm very proud of. I retained a weighted average mark of 80 across my degree and have shown competency in various areas of study. ",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2020 - current",
-      title: "Sr. Font End Developer",
-      place: "Apple Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2023 - Current",
+      title: "Bartender",
+      place: "The Scarborough Hotel",
+      desc: "A high volume restaurant on the waterfront, The Scarborough services various customers with meals and beverages. I'm currently responsible for running an outdoor bar, which I do so with pleasure!",
     },
     {
-      yearRange: "2018 - 2020",
-      title: "Jr. Font End Developer",
-      place: "Dribbble Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2021 - 2023",
+      title: "Bartender",
+      place: "La La La's",
+      desc: "A live music venue serving beer, wine, spirits and cocktails, working at La La La's gave me invaluable experience at customer service and fast problem solving skills.",
     },
     {
-      yearRange: "2017 - 2018",
-      title: "HTML Developer",
-      place: "Adobe Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2020-2021",
+      title: "Delivery Driver",
+      place: "Pinnochios Pizza Albion Park",
+      desc: "A busy pizza franchise, I was responsible for fast delivery of hot food and customer service in store. I also helped install and oversaw the installation of a new POS system for the business.",
+    },
+    {
+      yearRange: "June 2019",
+      title: "Consultant (work experience)",
+      place: "Interbit Computing",
+      desc: "Interbit computing are a computer repair shop that deal with both software and hardware issues. Was responsible for assisting with various jobs like data recovery, malware removal and networking issues.",
     },
   ];
 
@@ -119,7 +119,7 @@ const Resume = () => {
           </div>
         </div>
         {/* My Skills */}
-        <h2 className="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp">My Skills</h2>
+        {/* <h2 className="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp">My Skills</h2>
         <div className="row gx-5">
           {skills.length > 0 &&
             skills.map((skill, index) => (
@@ -140,7 +140,7 @@ const Resume = () => {
                 </div>
               </div>
             ))}
-        </div>
+        </div> */}
         <p className="text-center mt-5 wow fadeInUp">
           <a
             className="btn btn-outline-dark shadow-none rounded-0"

@@ -14,17 +14,16 @@ const BottomHeaderDefaultIntro = () => {
             <div className="bg-white shadow rounded-pill p-2 mb-4 d-inline-block wow zoomIn">
               <img
                 className="img-fluid rounded-pill d-block"
-                src="images/web-developer-sm.jpg"
+                src="images/award-edited.jpg"
                 title="I'm David"
                 alt="David"
               />
             </div>
             <h2 className="text-10 text-uppercase fw-600 mb-4 wow fadeInUp">
-              Hello! I'm Callum Smith - Graphic Designer, Illustrator &amp; Art
-              Director.
+              Hello! I'm Damon O'Neil - Software Engineer
             </h2>
             <p className="text-5 pb-3 wow fadeInUp">
-              based in Los Angeles, USA.
+              based in Sydney, Australia.
             </p>
             <Link
               className="btn btn-dark rounded-0 smooth-scroll wow fadeInUp"

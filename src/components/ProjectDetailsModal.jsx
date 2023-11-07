@@ -141,9 +141,9 @@ const ProjectDetailsModal = ({ projectDetails, setIsOpen }) => {
                           </li>
                           <li>
                             <span className={"text-dark fw-600 me-2"}>
-                              Industry:
+                              Features:
                             </span>
-                            {projectDetails?.document?.industry}
+                            {projectDetails?.document?.features}
                           </li>
                           <li>
                             <span className={"text-dark fw-600 me-2"}>
@@ -156,7 +156,7 @@ const ProjectDetailsModal = ({ projectDetails, setIsOpen }) => {
                               URL:
                             </span>
                             <a
-                              href={projectDetails?.document?.url?.name}
+                              href={projectDetails?.document?.url?.link}
                               className="btn btn-primary shadow-none rounded-0 px-3 py-1"
                               target="_blank"
                               rel="noopener noreferrer"

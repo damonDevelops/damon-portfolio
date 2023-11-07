@@ -42,7 +42,7 @@ const FullScreenHeader = ({ textWhite }) => {
           {/* Logo */}
           <Link
             className="logo"
-            title="Callum"
+            title="Damon"
             smooth="easeInOutQuint"
             duration={scrollDuration}
             style={{ cursor: "pointer" }}
@@ -53,8 +53,8 @@ const FullScreenHeader = ({ textWhite }) => {
             }}
           >
             <img
-              src={textWhite ? "images/logo-light.png" : "images/logo.png"}
-              alt="Callum"
+              src={textWhite ? "images/damon-logo-light.png" : "images/damon-logo-dark.png"}
+              alt="Damon"
             />
           </Link>
           {/* Logo End */}
@@ -64,7 +64,7 @@ const FullScreenHeader = ({ textWhite }) => {
             <span className="text-4 me-2">
               <i className="fas fa-phone" />
             </span>
-            (060) 444 434 444
+            (+61) 493 475 562
           </div>
           <button
             className={
@@ -187,7 +187,8 @@ const FullScreenHeader = ({ textWhite }) => {
                     FAQ
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* Uncomment to include testimonials in the header */}
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link "
                     smooth="easeInOutQuint"
@@ -203,7 +204,7 @@ const FullScreenHeader = ({ textWhite }) => {
                   >
                     Client Speak
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link
                     className="nav-link "
@@ -223,21 +224,10 @@ const FullScreenHeader = ({ textWhite }) => {
                 </li>
               </ul>
               <ul className="social-icons social-icons-light social-icons-lg social-icons-light d-inline-flex mt-4">
-                <li className="social-icons-twitter">
-                  <Tooltip text="Twitter" placement="top">
-                    <a
-                      href="https://twitter.com/harnishdesign/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fab fa-twitter" />
-                    </a>
-                  </Tooltip>
-                </li>
                 <li className="social-icons-facebook">
                   <Tooltip text="Facebook" placement="top">
                     <a
-                      href="http://www.facebook.com/harnishdesign/"
+                      href="https://www.facebook.com/profile.php?id=100009663630825"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -245,21 +235,10 @@ const FullScreenHeader = ({ textWhite }) => {
                     </a>
                   </Tooltip>
                 </li>
-                <li className="social-icons-instagram">
-                  <Tooltip text="Instagram" placement="top">
-                    <a
-                      href="http://www.instagram.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fab fa-instagram" />
-                    </a>
-                  </Tooltip>
-                </li>
                 <li className="social-icons-linkedin">
                   <Tooltip text="Linkedin" placement="top">
                     <a
-                      href="http://www.linkedin.com/"
+                      href="https://www.linkedin.com/in/damon-o-neil-464250252/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -267,17 +246,17 @@ const FullScreenHeader = ({ textWhite }) => {
                     </a>
                   </Tooltip>
                 </li>
-                <li className="social-icons-dribbble">
-                  <Tooltip text="Dribbble" placement="top">
-                    <a
-                      href="http://www.dribbble.com/harnishdesign/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fab fa-dribbble" />
-                    </a>
-                  </Tooltip>
-                </li>
+                <li className="social-icons-github">
+                <Tooltip text="Github" placement="top">
+                  <a
+                    href="https://github.com/damonDevelops"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-github" />
+                  </a>
+                </Tooltip>
+              </li>
               </ul>
             </div>
           </div>

@@ -14,10 +14,10 @@ const Contact = () => {
     setSendingMail(true);
     emailjs
       .sendForm(
-        "service_i8Fk3ms",
-        "template_siFcin9",
+        "service_hh9f2c1",
+        "template_eep5cd5",
         form.current,
-        "c9HsFgGF0tFWyVnAL"
+        "h79KKhwjleFQvMbHN"
       )
       .then(
         (result) => {
@@ -65,26 +65,15 @@ const Contact = () => {
             </p>
             <h3 className="text-5 fw-600">Living In:</h3>
             <address className="text-4">
-              30 Shacham street, Los Angeles, USA.
+              Wollongong, New South Wales.
             </address>
             <h3 className="text-5 fw-600">Call:</h3>
-            <p className="text-4">(+060) 444 434 444</p>
+            <p className="text-4">(+61) 493 475 562</p>
             <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
-              <li className="social-icons-twitter">
-                <Tooltip text="Twitter" placement="top">
-                  <a
-                    href="https://twitter.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-twitter" />
-                  </a>
-                </Tooltip>
-              </li>
               <li className="social-icons-facebook">
                 <Tooltip text="Facebook" placement="top">
                   <a
-                    href="http://www.facebook.com/harnishdesign/"
+                    href="https://www.facebook.com/profile.php?id=100009663630825"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -92,36 +81,25 @@ const Contact = () => {
                   </a>
                 </Tooltip>
               </li>
-              <li className="social-icons-instagram">
-                <Tooltip text="Instagram" placement="top">
-                  <a
-                    href="http://www.instagram.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </Tooltip>
-              </li>
+              <li className="social-icons-linkedin">
+                  <Tooltip text="Linkedin" placement="top">
+                    <a
+                      href="https://www.linkedin.com/in/damon-o-neil-464250252/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                  </Tooltip>
+                </li>
               <li className="social-icons-github">
                 <Tooltip text="Github" placement="top">
                   <a
-                    href="http://www.github.com/"
+                    href="https://github.com/damonDevelops"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <i className="fab fa-github" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-dribbble">
-                <Tooltip text="Dribbble" placement="top">
-                  <a
-                    href="http://www.dribbble.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-dribbble" />
                   </a>
                 </Tooltip>
               </li>
