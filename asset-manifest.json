@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/damon-portfolio/static/css/main.37523bd4.css",
-    "main.js": "/damon-portfolio/static/js/main.f6c051e3.js",
+    "main.js": "/damon-portfolio/static/js/main.d210ead4.js",
     "static/js/787.fbf68bd0.chunk.js": "/damon-portfolio/static/js/787.fbf68bd0.chunk.js",
     "static/media/home.mp4": "/damon-portfolio/static/media/home.bb43f9730aa282f0f01d.mp4",
     "static/media/resume.pdf": "/damon-portfolio/static/media/resume.5f47fb6237ba8faf2f07.pdf",
@@ -11,11 +11,11 @@
     "static/media/slick.woff": "/damon-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/damon-portfolio/index.html",
     "main.37523bd4.css.map": "/damon-portfolio/static/css/main.37523bd4.css.map",
-    "main.f6c051e3.js.map": "/damon-portfolio/static/js/main.f6c051e3.js.map",
+    "main.d210ead4.js.map": "/damon-portfolio/static/js/main.d210ead4.js.map",
     "787.fbf68bd0.chunk.js.map": "/damon-portfolio/static/js/787.fbf68bd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37523bd4.css",
-    "static/js/main.f6c051e3.js"
+    "static/js/main.d210ead4.js"
   ]
 }
