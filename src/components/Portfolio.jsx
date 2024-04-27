@@ -135,6 +135,31 @@ const Portfolio = () => {
       categories: [filters.PROJECTS],
     },
     {
+      title: "AFL Scores",
+      type: types.DOCUMENT,
+      document: {
+        projectInfo:
+          "A personal project I developed to view completed, live and future AFL games on my Garmin watch. I found it frustrating that no one had developed this app so I decided to publish one myself!",
+        client: "Myself!",
+        technologies: "Monkey C",
+        features: "Live API calls, Up to date information, intricate error handling, device scaling settings",
+        date: "2024",
+        url: {
+          name: "AFL Scores",
+          link: "https://github.com/damonDevelops/AflScores",
+        },
+        sliderImages: [
+          "images/projects/aflScores/GamesMenu.png",
+          "images/projects/aflScores/GameView.png",
+          "images/projects/aflScores/MainMenu.png",
+          "images/projects/aflScores/UpcomingGameView.png",
+          "images/projects/aflScores/UpcomingMenu.png",
+        ],
+      },
+      thumbImage: "images/projects/aflScores/GameView.png",
+      categories: [filters.PERSONAL],
+    },
+    {
       title: "Secret Santa Message Service",
       type: types.DOCUMENT,
       document: {

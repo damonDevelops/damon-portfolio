@@ -11,9 +11,9 @@ const Resume = () => {
     },
     {
       yearRange: "2020 - 2023",
-      title: "Bachelor of Computer Science - Software Engineer Major",
+      title: "Bachelor of Computer Science (Distinction) - Software Engineer Major",
       place: "University of Wollongong",
-      desc: "Recently graduated, our group finished 2nd out of 25 in the capstone project for our project 'IDentify' which I'm very proud of. I retained a weighted average mark of 80 across my degree and have shown competency in various areas of study. ",
+      desc: "Recently graduated with Distinction, our group finished 2nd out of 25 in the capstone project for our project 'IDentify' which I'm very proud of. I retained a weighted average mark of 84 across my degree and have shown competency in various areas of study. ",
     },
   ];
 
