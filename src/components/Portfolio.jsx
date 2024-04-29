@@ -146,7 +146,7 @@ const Portfolio = () => {
         date: "2024",
         url: {
           name: "AFL Scores",
-          link: "https://github.com/damonDevelops/AflScores",
+          link: "https://apps.garmin.com/en-US/apps/fdc97ea4-f26c-4170-9f0a-68bb443fc090",
         },
         sliderImages: [
           "images/projects/aflScores/GamesMenu.png",
