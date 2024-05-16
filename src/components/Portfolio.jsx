@@ -249,7 +249,7 @@ const Portfolio = () => {
 
   return (
     <>
-      <section id="portfolio" className={"section bg-light"}>
+      <section id="portfolio" className={"section"}>
         <div className={"container"}>
           {/* Heading */}
           <p className="text-center mb-2 wow fadeInUp">

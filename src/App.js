@@ -124,8 +124,8 @@ function App() {
 
             <AboutUs></AboutUs>
             <Services></Services>
-            <Resume></Resume>
             <Coding></Coding>
+            <Resume></Resume>
             <Portfolio></Portfolio>
             <CallToAction></CallToAction>
             <FAQs></FAQs>
