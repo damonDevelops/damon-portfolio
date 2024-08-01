@@ -34,8 +34,10 @@ const Portfolio = () => {
         projectInfo:
           "My best project to date. Our system allows businesses to provide customers with QR codes. The customer can then take or upload an image of their drivers license to be scanned and added to the system, no paper required. We finished 2nd at the annual UOW SCIT Tradeshow with this project.",
         client: "CSIT321 - Dr John Le",
-        technologies: "TypeScript, Angular, Java Spring Boot, Python, YOLACT, OpenCV, EasyOCR",
-        features: "Machine learning 0 shot classification, real time API backend integrated with fronted. User form automation using DocXTemplater.",
+        technologies:
+          "TypeScript, Angular, Java Spring Boot, Python, YOLACT, OpenCV, EasyOCR",
+        features:
+          "Machine learning 0 shot classification, real time API backend integrated with fronted. User form automation using DocXTemplater.",
         date: "2023",
         url: {
           name: "www.identify.rodeo",
@@ -66,7 +68,8 @@ const Portfolio = () => {
           "Tradie Connect is a three user based system connecting tradies to customer jobs, with an admin that can view statistics and generate reports. TradieConnect allows a customer to broadcast a job which service providers can apply for and complete, and the customer can review the Tradie also.",
         client: "CSIT314",
         technologies: "React, JavaScript, Java Spring Boot, Python",
-        features: "Three user based system, three seperate interfaces. User Authentication. User Routing. Realtime API updates. PDF Report Generation",
+        features:
+          "Three user based system, three seperate interfaces. User Authentication. User Routing. Realtime API updates. PDF Report Generation",
         date: "2023",
         url: {
           name: "Tradie Connect Github",
@@ -92,7 +95,8 @@ const Portfolio = () => {
           "A microservice based web app for a cycling company. Allows the user to create, buy and store parts and update inventory numbers all in seperate microservices. Uses Apache Kafka for instant realtime processing.",
         client: "CSIT318",
         technologies: "React, JavaScript, Apache Kafka, Java Spring Boot",
-        features: "Realtime data streaming using Kafka, realtime data display using React, admin panel for software overview.",
+        features:
+          "Realtime data streaming using Kafka, realtime data display using React, admin panel for software overview.",
         date: "July 16, 2019",
         url: {
           name: "Mercury Github",
@@ -142,7 +146,8 @@ const Portfolio = () => {
           "A personal project I developed to view completed, live and future AFL games on my Garmin watch. I found it frustrating that no one had developed this app so I decided to publish one myself!",
         client: "Myself!",
         technologies: "Monkey C",
-        features: "Live API calls, Up to date information, intricate error handling, device scaling settings",
+        features:
+          "Live API calls, Up to date information, intricate error handling, device scaling settings",
         date: "2024",
         url: {
           name: "AFL Scores",
@@ -167,20 +172,58 @@ const Portfolio = () => {
           "A personal project I made to do our family secret santa every year. I was sick of someone having to organise it and them know who everyone had. My system uses Twilio so everyone gets sent a message with their secret santa.",
         client: "Myself!",
         technologies: "Python, PyQt5, Twilio",
-        features: "Couples or individuals, easy to use desktop interface, Twilio messaging, CSV import for easy loading of more people or couples.",
+        features:
+          "Couples or individuals, easy to use desktop interface, Twilio messaging, CSV import for easy loading of more people or couples.",
         date: "2022",
         url: {
           name: "Secret Santa Github",
           link: "https://github.com/damonDevelops/python_projects",
         },
-        sliderImages: [
-          "images/projects/secretSanta/2.jpg",
-        ],
+        sliderImages: ["images/projects/secretSanta/2.jpg"],
       },
       thumbImage: "images/projects/secretSanta/1.jpg",
       categories: [filters.PERSONAL],
     },
-
+    {
+      title: "Google Calendar Weekly Reminder Email",
+      type: types.DOCUMENT,
+      document: {
+        projectInfo:
+          "I can be forgetful when it comes to actually viewing my events on Google Calendar for each week or even the following day. I wrote a script to send myself an email each week with a summary of my events, as well as my partner's events.",
+        client: "Myself!",
+        technologies:
+          "Python, Google Cloud Functions, Google Cloud Scheduler, Email",
+        features:
+          "Integrates multiple calendar's, automatic email delivery, Google IAM permissions and authentication",
+        date: "2024",
+        url: {
+          name: "Google Calendar Reminder Github",
+          link: "https://github.com/damonDevelops/WeeklyGoogleCalendarEmailAutomation",
+        },
+      },
+      thumbImage: "images/projects/weeklyCalendar/1.png",
+      categories: [filters.PERSONAL],
+    },
+    {
+      title: "Nightly Discord Google Calendar Reminder",
+      type: types.DOCUMENT,
+      document: {
+        projectInfo:
+          "Every night at 7PM, I run a script hosted and scheduled on Google Cloud Platform which sends a discord message to a dedicated discord channel. This means I never even have to open the Google Calendar app. I probably could have saved time by just using the calendar like a normal person but coding is fun.",
+        client: "Myself!",
+        technologies:
+          "Python, Google Cloud Functions, Google Cloud Scheduler, Discord Python API",
+        features:
+          "Integrates multiple calendar's, Scheduled Discord Delivery, Google IAM permissions and authentication",
+        date: "2024",
+        url: {
+          name: "Discord Calendar Reminder Github",
+          link: "https://github.com/damonDevelops/DiscordCalenderReminderWebhook",
+        },
+      },
+      thumbImage: "images/projects/discordCalendar/1.png",
+      categories: [filters.PERSONAL],
+    },
 
     // {
     //   title: "YouTube Video",
@@ -204,8 +247,6 @@ const Portfolio = () => {
     //   thumbImage: "images/projects/project-4.jpg",
     //   categories: [filters.VIMEO],
     // },
-    
-    
   ];
 
   // initialize an Isotope object with configs
