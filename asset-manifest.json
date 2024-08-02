@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/damon-portfolio/static/css/main.37523bd4.css",
-    "main.js": "/damon-portfolio/static/js/main.3fba6228.js",
-    "static/js/787.fbf68bd0.chunk.js": "/damon-portfolio/static/js/787.fbf68bd0.chunk.js",
-    "static/media/home.mp4": "/damon-portfolio/static/media/home.bb43f9730aa282f0f01d.mp4",
-    "static/media/resume.pdf": "/damon-portfolio/static/media/resume.7a02585717af61cbded5.pdf",
-    "static/media/slick.svg": "/damon-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/damon-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/damon-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/damon-portfolio/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/damon-portfolio/index.html",
-    "main.37523bd4.css.map": "/damon-portfolio/static/css/main.37523bd4.css.map",
-    "main.3fba6228.js.map": "/damon-portfolio/static/js/main.3fba6228.js.map",
-    "787.fbf68bd0.chunk.js.map": "/damon-portfolio/static/js/787.fbf68bd0.chunk.js.map"
+    "main.css": "./static/css/main.2bd9ea53.css",
+    "main.js": "./static/js/main.0a1f6efb.js",
+    "static/js/787.fbf68bd0.chunk.js": "./static/js/787.fbf68bd0.chunk.js",
+    "static/media/home.mp4": "./static/media/home.bb43f9730aa282f0f01d.mp4",
+    "static/media/resume.pdf": "./static/media/resume.7a02585717af61cbded5.pdf",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "./index.html",
+    "main.2bd9ea53.css.map": "./static/css/main.2bd9ea53.css.map",
+    "main.0a1f6efb.js.map": "./static/js/main.0a1f6efb.js.map",
+    "787.fbf68bd0.chunk.js.map": "./static/js/787.fbf68bd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37523bd4.css",
-    "static/js/main.3fba6228.js"
+    "static/css/main.2bd9ea53.css",
+    "static/js/main.0a1f6efb.js"
   ]
 }
