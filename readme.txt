@@ -1,1 +1,0 @@
-The structure of this file is different to that of main because it is required to publish to gh-pages that the index.html file is in the root
